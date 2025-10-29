@@ -3,6 +3,9 @@
 }
 
 body {
+  width: 1440px;
+  margin: 0 auto;
+  display: block;
   font-family: "peace_sans", sans-serif;
   background-color: #260981;
   color: #fff;
@@ -19,50 +22,35 @@ h2 {
 }
 
 h3 {
-  font-size: 72 px;
+  font-size: 42 px;
 }
 
 h4 {
-  font-size: 48px;
-}
-
-h5 {
-  font-size: 36px;
-}
-
-h6 {
   font-size: 26px;
-}
-
-.text-outline-stroke {
-  color: #260981;
-  -webkit-text-stroke: 5px rgb(255, 255, 255);
-  margin-left: 56px;
 }
 
 /* стили для секции 1_1*/
 .section_1_1 {
-  z-index: 1;
   display: flex;
   justify-content: space-between;
-  height: 104px;
+  z-index: 1;
 }
-.section_1_1 h6 {
-  font-size: 26px;
-  line-height: 26px;
+
+.section_1_1 div:nth-of-type(1) h4 {
+  margin-left: 60px;
+  margin-top: 50px;
 }
-.section_1_1 div:nth-of-type(1) h6 {
-  padding: 56px 52px;
-}
-.section_1_1 div:nth-of-type(2) h6 {
+
+.section_1_1 div:nth-of-type(2) h4 {
   text-align: right;
-  margin-right: 56px;
-  margin-top: 52px;
+  margin-right: 60px;
+  margin-top: 50px;
 }
 
 /* стили для секции 1_2*/
+
 .section_1_2 {
-  z-index: 2;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -70,7 +58,23 @@ h6 {
   margin-top: -100px;
 }
 
-.section_1_3 {
-  z-index: 3;
-  margin-top: -300px;
+.section_1_2 div:nth-of-type(1) img {
+  position: relative;
+  z-index: 0;
+}
+
+/* стили для заголовка PEACE SANS */
+.heading {
+  z-index: 1;
+  color: #260981;
+  text-align: center;
+  margin-left: 56px;
+  position: absolute;
+}
+
+/* стили для фона для надписи "здесь производят глифы" */
+.background-text {
+  z-index: 0;
+  position: absolute;
+  rotate: 35px;
 }
