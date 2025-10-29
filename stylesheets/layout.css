@@ -9,6 +9,18 @@ body {
   font-family: "peace_sans", sans-serif;
   background-color: #260981;
   color: #fff;
+  position: relative;
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../images/maket.png);
+  opacity: 10%;
+  width: 1440px;
+  height: 7327px;
 }
 
 /* стили заголовков*/
@@ -33,7 +45,7 @@ h4 {
 .section_1_1 {
   display: flex;
   justify-content: space-between;
-  z-index: 1;
+  padding: 0px;
 }
 
 .section_1_1 div:nth-of-type(1) h4 {
@@ -42,15 +54,25 @@ h4 {
 }
 
 .section_1_1 div:nth-of-type(2) h4 {
+  color: #260981;
   text-align: right;
   margin-right: 60px;
   margin-top: 50px;
 }
 
+/* фон для секции 1_1 */
+.drops-background {
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 895px;
+  width: 545px;
+  height: 365px;
+}
+
 /* стили для секции 1_2*/
 
 .section_1_2 {
-  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -63,18 +85,53 @@ h4 {
   z-index: 0;
 }
 
+.section_1_2 h4 {
+  margin-top: 18px;
+  margin-left: 60px;
+  margin-bottom: 40px;
+}
+
+.cow {
+  position: absolute;
+  margin-left: 352px;
+  z-index: -1;
+}
+
 /* стили для заголовка PEACE SANS */
 .heading {
   z-index: 1;
   color: #260981;
   text-align: center;
-  margin-left: 56px;
+  margin-left: 80px;
+  margin-top: -32px;
   position: absolute;
 }
 
-/* стили для фона для надписи "здесь производят глифы" */
-.background-text {
-  z-index: 0;
+.background-heading {
+  margin-top: -48px;
+  margin-left: 60px;
+}
+
+.fence {
+  margin-top: -340px;
+}
+
+/* стили для надписи на носу коровы */
+.glyfs {
+  margin-left: 906px;
+  margin-top: -536px;
+  text-align: center;
+  color: #260981;
   position: absolute;
-  rotate: 35px;
+  z-index: 3;
+  rotate: 19deg;
+}
+
+/* стили для фона надписи */
+.background-for-text {
+  z-index: 2;
+  position: absolute;
+  margin-left: 866px;
+  margin-top: -556px;
+  rotate: 19deg;
 }
