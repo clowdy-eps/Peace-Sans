@@ -34,14 +34,14 @@ h2 {
 }
 
 h3 {
-  font-size: 42 px;
+  font-size: 42px;
 }
 
 h4 {
   font-size: 26px;
 }
 
-/* стили для секции 1_1*/
+/* СТИЛИ ДЛЯ СЕКЦИИ 1_1*/
 .section_1_1 {
   display: flex;
   justify-content: space-between;
@@ -70,7 +70,7 @@ h4 {
   height: 365px;
 }
 
-/* стили для секции 1_2*/
+/* СТИЛИ ДЛЯ СЕКЦИИ 1_2*/
 
 .section_1_2 {
   display: flex;
@@ -134,4 +134,104 @@ h4 {
   margin-left: 866px;
   margin-top: -556px;
   rotate: 19deg;
+}
+
+/* СТИЛИ ДЛЯ СЕКЦИИ 2_1 */
+
+/* флексбокс для всего экрана */
+.section_2_1 div {
+  display: flex;
+  flex-direction: row;
+  z-index: 5;
+}
+
+/* заголовок */
+.section_2_1 h2 {
+  padding-left: 60px;
+  color: #260981;
+  position: relative;
+  z-index: 5;
+}
+
+/* стили для фона секции 2_1*/
+.milk-background {
+  margin-top: -148px;
+  margin-left: 0px;
+  position: absolute;
+  z-index: 5;
+}
+
+/* стили для списка */
+.numbers {
+  margin-left: 74px;
+  margin-top: 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  z-index: 7;
+  -webkit-text-stroke: 1.5px #260981;
+}
+.list {
+  margin-left: 24px;
+  margin-top: 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  z-index: 7;
+  color: #260981;
+}
+
+/* декоративные строки в списке */
+.section_2_1 div div:nth-of-type(1) {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  z-index: 5;
+  position: absolute;
+  margin-left: 60px;
+}
+
+/* стили для капель на фоне упаковки молока */
+.third-drop {
+  position: absolute;
+  z-index: 6;
+}
+.second-drop {
+  position: absolute;
+  z-index: 7;
+  padding-left: 56px;
+  padding-bottom: 28px;
+}
+.first-drop {
+  position: absolute;
+  z-index: 8;
+  padding-left: 56px;
+}
+
+/* выравнивание капель */
+.section_2_1 div div:nth-of-type(2) {
+  padding-left: 64px;
+  padding-bottom: 28px;
+  align-items: center;
+}
+
+/* молоко */
+.milk {
+  position: absolute;
+  z-index: 9;
+  padding-left: 126px;
+}
+
+/* СТИЛИ ДЛЯ СЕКЦИИ 3 */
+/* .section_3_1 {
+  margin-left: 60px;
+} */
+
+.section_3_1 h2 {
+  color: #ffffff;
+}
+
+.jug-of-milk {
+  padding-top: 218px;
 }
