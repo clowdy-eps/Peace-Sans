@@ -415,3 +415,28 @@ h4 {
 .lines:nth-of-type(5) img {
   width: 374px;
 }
+
+/* секция 4 */
+.section_4 {
+  margin-top: 60px;
+  display: flex;
+  background-image: url("../images/section_04/milk-background.svg");
+  color: #260981;
+  height: 467px;
+  width: 100%;
+  flex-direction: row;
+}
+.section_4 p {
+  font-size: 272px;
+  margin-top: 90px;
+  margin-left: 164px;
+  padding-bottom: 20px;
+}
+.section_4 div {
+  margin-top: 132px;
+  margin-left: 60px;
+  margin-bottom: 8px;
+}
+.section_4 div:nth-of-type(1) h2 {
+  padding-bottom: 20px;
+}
