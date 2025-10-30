@@ -224,14 +224,194 @@ h4 {
 }
 
 /* СТИЛИ ДЛЯ СЕКЦИИ 3 */
-/* .section_3_1 {
-  margin-left: 60px;
-} */
+.section_3 {
+  position: absolute;
+}
 
-.section_3_1 h2 {
+.section_3_1 {
+  display: flex;
+  flex-direction: column;
   color: #ffffff;
 }
 
-.jug-of-milk {
-  padding-top: 218px;
+.section_3_1 h2 {
+  margin-left: 60px;
+  color: #ffffff;
+  margin-top: 270px;
+  z-index: 8;
+}
+
+.section_3_1 h4 {
+  margin-left: 60px;
+  margin-top: 28px;
+  z-index: 8;
+}
+
+/* расположение букв */
+.section_3 {
+  background-image: url(../images/section_03/jug-of-milk.svg);
+  background-repeat: no-repeat;
+  position: relative;
+  height: 550px;
+  background-position: 0%;
+  color: white;
+  -webkit-text-stroke: 6px #d2a3a3;
+  line-height: 0.8;
+}
+
+/* детальная позиция каждой буквы */
+.section_3 #o {
+  position: absolute;
+  font-size: 126px;
+  rotate: -9.41deg;
+  left: 416px;
+  top: 86px;
+}
+
+.section_3 #M {
+  position: absolute;
+  font-size: 130px;
+  rotate: -20deg;
+  left: 300px;
+  top: 260px;
+}
+
+.section_3 #№ {
+  position: absolute;
+  font-size: 98px;
+  left: 560px;
+  top: 94px;
+  rotate: -9.41deg;
+  -webkit-text-stroke: 4px #d2a3a3;
+}
+
+.section_3 #Џ {
+  position: absolute;
+  font-size: 126px;
+  left: 628px;
+  top: 358px;
+  rotate: -51.5deg;
+}
+
+.section_3 #Å {
+  position: absolute;
+  font-size: 80px;
+  left: 802px;
+  top: 300px;
+  -webkit-text-stroke: 4px #d2a3a3;
+  rotate: 20.04deg;
+}
+
+.section_3 #© {
+  position: absolute;
+  font-size: 57px;
+  left: 746px;
+  top: 220px;
+  -webkit-text-stroke: 0px;
+  z-index: 2;
+}
+
+/* фон для символа © */
+.section_3 #circle-background {
+  position: absolute;
+  font-size: 57px;
+  left: 743px;
+  top: 214px;
+  z-index: 1;
+}
+
+.section_3 #č {
+  position: absolute;
+  font-size: 76px;
+  left: 844px;
+  top: 110px;
+  rotate: 33.37deg;
+  -webkit-text-stroke: 4px #d2a3a3;
+}
+
+.section_3 #¥ {
+  position: absolute;
+  font-size: 112px;
+  left: 800px;
+  top: -10px;
+  rotate: 7deg;
+}
+
+.section_3 #г {
+  position: absolute;
+  font-size: 84px;
+  left: 910px;
+  top: -90px;
+  rotate: 7deg;
+}
+
+.section_3 #ќ {
+  position: absolute;
+  font-size: 117px;
+  left: 1200px;
+  top: -170px;
+  rotate: -78.67deg;
+}
+
+.section_3 #hash-sign {
+  position: absolute;
+  font-size: 84px;
+  left: 710px;
+  top: 27px;
+  rotate: -9.4deg;
+}
+
+.section_3 #а {
+  position: absolute;
+  font-size: 150px;
+  left: 459px;
+  top: 358px;
+  rotate: -70deg;
+  -webkit-text-stroke: 4px #d2a3a3;
+}
+
+.section_3 #з {
+  position: absolute;
+  font-size: 80px;
+  left: 1060px;
+  top: -80px;
+  rotate: -73deg;
+  -webkit-text-stroke: 4.6px #d2a3a3;
+}
+
+/* линии у списка*/
+.lines {
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+  position: absolute;
+  margin-left: 860px;
+  margin-top: -520px;
+}
+
+/* стиль списка */
+.list-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+  position: absolute;
+  padding: 0%;
+  margin-top: -530px;
+  margin-left: 1130px;
+}
+
+.lines:nth-of-type(1) img {
+  width: 500px;
+}
+.lines:nth-of-type(2) img {
+  width: 212px;
+}
+.lines:nth-of-type(3) img {
+  width: 306px;
+}
+.lines:nth-of-type(4) img {
+  width: 247px;
+}
+.lines:nth-of-type(5) img {
+  width: 374px;
 }
