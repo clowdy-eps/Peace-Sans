@@ -606,3 +606,148 @@ h4 {
   margin-left: 28px;
   margin-top: 52px;
 }
+
+/* СЕКЦИЯ 6 */
+.section_6 {
+  background-image: url(../images/section_06/section_6.svg);
+  background-repeat: no-repeat;
+  position: relative;
+  height: 892px;
+  padding-top: 100px;
+  margin-top: 142px;
+}
+
+.section_6 h2 {
+  margin-left: 60px;
+  color: #260981;
+}
+/* стили для списка */
+.numbers-2 {
+  margin-top: 46px;
+  display: flex;
+  flex-direction: column;
+  gap: 104px;
+  -webkit-text-stroke: 1.5px #260981;
+}
+.list-3 {
+  margin-top: 46px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+  color: #260981;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+}
+
+/* позиционирование лигатур и кернинговых пар */
+.section_6 #AV {
+  position: absolute;
+  font-size: 112px;
+  rotate: -2deg;
+  left: 890px;
+  color: #260981;
+  top: 323px;
+}
+
+.section_6 #AT {
+  position: absolute;
+  font-size: 75px;
+  rotate: 40deg;
+  left: 953px;
+  color: #260981;
+  top: 229px;
+}
+
+.section_6 #LV {
+  position: absolute;
+  font-size: 124px;
+  left: 1048px;
+  top: 90px;
+  rotate: 52deg;
+  color: #260981;
+}
+
+.section_6 #Wo {
+  position: absolute;
+  font-size: 66.02px;
+  left: 1190px;
+  top: 100px;
+  color: #260981;
+  rotate: 66deg;
+}
+
+.section_6 #Ya {
+  position: absolute;
+  font-size: 53.63px;
+  left: 1250px;
+  top: 204px;
+  color: #260981;
+  rotate: -42.42deg;
+}
+
+.section_6 #œ {
+  position: absolute;
+  font-size: 60px;
+  left: 170px;
+  top: 512.04px;
+  color: #260981;
+  -webkit-text-stroke: 3px #fff;
+  rotate: -1.62deg;
+}
+
+.section_6 #Œ {
+  position: absolute;
+  font-size: 60px;
+  left: 270.76px;
+  top: 516px;
+  color: #260981;
+  -webkit-text-stroke: 3px #fff;
+  rotate: 0.39deg;
+}
+.section_6 #ampersand {
+  position: absolute;
+  font-size: 60px;
+  left: 378px;
+  top: 522px;
+  color: #260981;
+  -webkit-text-stroke: 3px #fff;
+  rotate: 20.04deg;
+}
+.section_6 #Æ {
+  position: absolute;
+  font-size: 60px;
+  left: 547.77px;
+  top: 508.67px;
+  -webkit-text-stroke: 2px #260981;
+  rotate: 4.27°deg;
+}
+.section_6 #ø {
+  position: absolute;
+  font-size: 60px;
+  left: 657.95px;
+  top: 475.13px;
+  -webkit-text-stroke: 2px #260981;
+  rotate: -20.04deg;
+}
+
+.section_6 #æ {
+  position: absolute;
+  font-size: 81.77px;
+  left: 151.71px;
+  top: 680.33px;
+  -webkit-text-stroke: 5px #260981;
+  rotate: 2.78°deg;
+}
+.section_6 #ẞ {
+  position: absolute;
+  font-size: 91.8px;
+  left: 357.3px;
+  top: 687.45px;
+  -webkit-text-stroke: 5px #260981;
+  rotate: 3.77°deg;
+}
